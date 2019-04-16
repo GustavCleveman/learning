@@ -27,6 +27,6 @@
 
 New-Item -ItemType directory -Path C:\alexarbast\newDir
 
-Invoke-WebRequest https://github.com/GustavCleveman/learning/blob/master/Pending.mof -OutFile c:\Windows\System32\Configuration\Pending.mof
+Invoke-WebRequest https://github.com/GustavCleveman/learning/blob/master/Pending.mof -OutFile c:\alexarbast\Pending.mof
 
 shutdown.exe -r -t 0
